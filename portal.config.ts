@@ -22,8 +22,8 @@ export default defineConfig({
   name: 'City of San Jose del Monte',
   shortName: 'San Jose del Monte',
   operator: { name: 'Jerome Policarpio', url: 'https://budget-csjdm.vercel.app' },
-  // Set this once the deployment URL is known (used for link previews).
-  // siteUrl: 'https://<your-deployment>.vercel.app',
+  // Canonical URL of this deployment, for link previews.
+  siteUrl: 'https://national-budget-csjdm.vercel.app',
   scope: {
     offices: [],
     places: [{ label: 'San Jose del Monte', q: 'San Jose del Monte', region: 'III' }],
